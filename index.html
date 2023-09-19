@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suwandi's portofolio</title>
+    <style>
+        .profile-container {
+
+            width: 300x;
+            height: 300px;
+            display: flex;
+            cursor: pointer;
+            overflow: hidden;
+
+        }
+
+        .container {
+            opacity: 0;
+            font-size: 40px;
+            position: absolute;
+            top: 0;
+            left: 0%;
+
+            background-color: rgba(200, 200, 200, 0.5);
+            width: 300px;
+            height: 300px;
+            text-align: center;
+
+        }
+
+        .profile-container .container:hover {
+            opacity: 1;
+
+        }
+
+        .profile-container .container .text {
+            height: 0;
+            opacity: 1;
+            transition-delay: 0s;
+            transition-duration: 0.4s;
+
+        }
+
+        .profile-container .container:hover .text {
+            opacity: 1;
+            transform: translateY(250px);
+            -webkit-transform: translateY(250px);
+        }
+
+        .container-content {
+            height: 50px;
+        }
+
+        .instagram {
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-container">
+        <img src="Image .jpg" alt="">
+        <div class="container">
+            <div class="text">Suwandi </div>
+        </div>
+    </div>
+
+
+    <h1>Name : Suwandi The </h1>
+    <h3>Student ID : 2702350775</h3>
+    <h3>Class : L1CC</h3>
+    <p>Hello, my name is Suwandi The, I was born in tebing tinggi, North Sumatra. I was graduated from SMA Swasta
+        Ir.H.Djuanda Tebing Tinggi. Now, I am currently a student of Binus International University. </p>
+    <p>Gender</p>
+    <input type="radio" id="pria" name="jenis_kelamin" value="pria" checked="checked">
+    <label for="pria">Male</label>
+
+    <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan"><label for="perempuan"> Female</label><br>
+
+    <p>My education
+    <ol>
+        <li>I was graduated from SMA Swasta Ir.H.Djuanda Tebing Tinggi</li>
+        <li>currently studying as a student at <a href="https://binus.ac.id">Binus International University</a></li>
+    </ol>
+    </p>
+
+    <p>My programming skills :</p>
+    <input type="checkbox" name="softskill1" id="softskill1" value="HTML" checked="checked">
+    <label for="softskill1">HTML</label>
+    <input type="checkbox" name="softskill2" id="softskill2" value="CSS" checked="checked">
+    <label for="softskill1">CSS</label>
+
+    <p>My sosmed information : </p>
+    <a href="https://www.instagram.com/suwandi.the/"><img src="ig.jpg" alt="" class="instagram">
+        https://www.instagram.com/suwandi.the/</a>
+
+        <p>My hobbies : </p>
+        <ul>
+            <li>Playing badmintonn</li>
+            <li>listen to pop musics </li>
+        </ul>
+
+
+
+</body>
+
+</html>
